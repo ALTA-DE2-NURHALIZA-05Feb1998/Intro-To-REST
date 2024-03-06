@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "ba1876b0-930a-4c47-93c2-13d02c422468",
+		"name": "target_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30192659",
+		"_collection_link": "https://www.postman.com/bold-firefly-588100/workspace/coba-postman/collection/30192659-ba1876b0-930a-4c47-93c2-13d02c422468?action=share&source=collection_link&creator=30192659"
+	},
+	"item": [
+		{
+			"name": "target API 1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://newsapi.org/",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "target API 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"@context\": \"http://www.schema.org\",\r\n    \"@type\": \"Organization\",\r\n    \"name\": \"News API\",\r\n    \"url\": \"https://newsapi.org\",\r\n    \"sameAs\": [\r\n        \"https://twitter.com/NewsAPIorg\",\r\n        \"https://github.com/news-api-gh\"\r\n    ],\r\n    \"logo\": \"https://newsapi.org/images/n-logo-border.png\",\r\n    \"description\": \"Search worldwide news articles and headlines from across the web in real-time with our free News API.\",\r\n    \"email\": \"support@newsapi.org\",\r\n    \"contactPoint\": [\r\n        {\r\n            \"@type\": \"ContactPoint\",\r\n            \"telephone\": \"+13473218989\",\r\n            \"contactType\": \"customer service\",\r\n            \"areaServed\": \"US\"\r\n        },\r\n        {\r\n            \"@type\": \"ContactPoint\",\r\n            \"telephone\": \"+442801234589\",\r\n            \"contactType\": \"customer service\",\r\n            \"areaServed\": \"UK\"\r\n        }\r\n    ],\r\n    \"numberOfEmployees\": \"5\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://newsapi.org/",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "target API 1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"@context\": \"http://www.schema.org\",\r\n    \"@type\": \"ALTA\",\r\n    \"name\": \"Postman\",\r\n    \"url\": \"https://newsapi.org\",\r\n    \"sameAs\": [\r\n        \"https://twitter.com/NewsAPIorg\",\r\n        \"https://github.com/news-api-gh\"\r\n    ],\r\n    \"logo\": \"https://newsapi.org/images/n-logo-border.png\",\r\n    \"description\": \"ini saya buat untuk coba coba.\",\r\n    \"email\": \"support@newsapi.org\",\r\n    \"contactPoint\": [\r\n        {\r\n            \"@type\": \"ContactPoint\",\r\n            \"telephone\": \"36474392\",\r\n            \"contactType\": \"saya\",\r\n            \"areaServed\": \"japan\"\r\n        },\r\n        {\r\n            \"@type\": \"Contact\",\r\n            \"telephone\": \"0808979808\",\r\n            \"contactType\": \"saya\",\r\n            \"areaServed\": \"belanda\"\r\n        }\r\n    ],\r\n    \"numberOfEmployees\": \"4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://newsapi.org/",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "target API 1",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"harga\"  : 350000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://newsapi.org/product",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "target API 1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"description\": \"ini saya ubah.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://newsapi.org/",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
